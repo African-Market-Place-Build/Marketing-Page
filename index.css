@@ -169,7 +169,6 @@ footer{
     background-image: url("https://img.freepik.com/free-photo/empty-wooden-table-with-smoke-float-up-dark-background_68495-135.jpg?size=626&ext=jpg");
     background-size: cover;
     background-position: center;
-    border:1px solid black;
     padding:80px;
     text-align:center;
 }
@@ -193,20 +192,43 @@ a:hover{
     background-color:black;
     color:white;
 }
-footer li{
-    list-style: none;
-    margin: 10px 30px;
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px 20px;
-    color: blueviolet;
-    border: 2px solid green;
-    border-radius: 50%;
-    transition: 0.5s;
+
+#social-icons{
+    display:inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 40px;
+    border-radius: 5px;
 }
-footer li:hover{
-    color:white;
-    border: 1px solid red;
+.facebook{
+    color:blue;
+}
+.twitter{
+    color:#38a1f3;
+}
+.instagram{
+    color:#e1306c;
+}
+.codepen{
+    color:green;
+}
+.github{
+    color:blueviolet;
+}
+ .github:hover{
+    background-color: white;
+}
+.facebook:hover{
+    background-color: white;
+}
+.twitter:hover{
+    background-color: white;
+}
+.instagram:hover{
+    background-color: white;
+}
+.codepen:hover{
+    background-color: white;
 }
 
 
@@ -252,12 +274,17 @@ footer li:hover{
         font-size:15px;
         color:goldenrod;
     }
-}
-/* @media(max-width:800px){
-    #topsellers img{
-        width: 43%;
-        padding:2%;
-
+    footer li{
+        list-style: none;
+        margin:0;
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px 20px;
+        color: blueviolet;
+        border: 2px solid green;
+        border-radius: 50%;
+        transition: 0.5s;
     }
-} */
+
+}
 
